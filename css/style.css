@@ -24,11 +24,15 @@ header {
 }
 
 nav{
-    border: 1px solid red;
+
     color: #636363;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.card{
+    background-color: white;
 }
 
 .container{
@@ -37,3 +41,6 @@ nav{
     margin: 0 auto;
 }
 
+#product-details{
+    padding: 20px 0;
+}
