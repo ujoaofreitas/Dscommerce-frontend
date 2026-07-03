@@ -38,9 +38,7 @@ nav{
     margin: 0 auto;
 }
 
-#product-details{
-    padding: 20px 0;
-}
+
 
 .card {
     border: 1px solid rgb(168, 168, 168);
@@ -48,55 +46,8 @@ nav{
     background-color: #f3f3f3 
 }
 
-
-.card-top {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px solid rgb(168, 168, 168);
-}
-
-.card-top img {
-    width: 220px;
-}
-
-.card-bottom {
-    padding: 10px 20px 20px 20px;
-}
-
-.card-bottom h3 {
-    color: #0caf10;
-    font-size: 20px;
-}
-
-.card-bottom h4 {
-    color: #000000;
-    font-size: 14px;
-}
-
-.card-bottom p {
-    color: #000000;
-    font-size: 14px;
-    margin: 10px 0;
-}
-
-.category-container {
-    display: flex;
-}
-
-.category {
-    padding: 0 20px;
-    margin-right: 20px;
-    background-color: rgb(72, 72, 72);
-    border-radius: 4px;
-    color: white;
-    height: 30px;
-    font-size: 14px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.line-bottom {
+     border-bottom: 1px solid rgb(168, 168, 168);
 }
 
 .btn {
