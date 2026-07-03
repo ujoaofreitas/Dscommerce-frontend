@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carrinho de Compras</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/cart.css">
+
   </head>
   <body>
     <header>
@@ -14,19 +16,45 @@
       </nav>
     </header>
     <main>
-      <section id="product-details" class="container">
+      <section id="cart-container" class="container">
         <div class="card mb20">
           
           <div class="cart-item-container line-bottom">
-            <img src="./imagens/computer.png" alt="Computador" />
-          </div>
-          
-          <div class="cart-item-container line-bottom">
-            <img src="./imagens/computer.png" alt="Computador" />
+            <div class="cart-item-left">
+              <img src="./imagens/computer.png" alt="Computador" />
+              <div class="cart-item-description">
+                <h3>MacBook Z-Pro</h3>
+                <div class="cart-item-quantity-container">
+                  <div class="cart-item-quantity-btn">-</div>
+                  <p>1</p>
+                  <div class="cart-item-quantity-btn">+</div>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item-right">
+              R$ 5000,00
+            </div>
           </div>
 
+           <div class="cart-item-left">
+              <img src="./imagens/computer.png" alt="Computador" />
+              <div class="cart-item-description">
+                <h3>MacBook Z-Pro</h3>
+                <div class="cart-item-quantity-container">
+                  <div class="cart-item-quantity-btn">-</div>
+                  <p>1</p>
+                  <div class="cart-item-quantity-btn">+</div>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item-right">
+              R$ 5000,00
+            </div>
+
           <div class="cart-total-container">
-            R$ 15000,00
+            <h3>
+              R$ 15000,00
+            </h3>
           </div>
 
           <div class="card-bottom">
