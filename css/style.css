@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+
+    --dsc-color-bg-primary: #bbbbbb57;
+    --dsc-color-bg-secondary: #ff6600;
+
+    --dsc-color-card-bg: #f3f3f3;
+    --dsc-color-card-border: #a8a8a8;
+
+    --dsc-color-btn-primary: #002fff;
+    --dsc-color-btn-inverse: #002fff;
+    
+    --dsc-color-primary-font: #ff6600;
+    --dsc-color-secondary-font: #0caf10;
+    --dsc-color-ternary-font: #ffffff;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -13,24 +29,22 @@ a, a:hover {
 }
 
 html, body {
-    background-color: #bbbbbb57; 
+    background-color: var(--dsc-color-bg-primary); 
 }
 
 header {
-    background-color: #ff6600;
+    background-color: var(--dsc-color-bg-secondary);
     height: 70px;
     display: flex;
     align-items: center;
 }
 
 nav{
-
-    color: #ffffff;
+    color: var(--dsc-color-ternary-font);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .container{
     width: 100%;
@@ -38,15 +52,14 @@ nav{
     margin: 0 auto;
 }
 
-
 .card {
-    border: 1px solid rgb(168, 168, 168);
+    border: 1px solid var(--dsc-color-card-border);
     border-radius: 4px;
-    background-color: #f3f3f3 
+    background-color: var( --dsc-color-card-bg);
 }
 
 .line-bottom {
-     border-bottom: 1px solid rgb(168, 168, 168);
+     border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
 .btn {
@@ -57,7 +70,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--dsc-color-ternary-font);
 }
 
 .btn-page-container {
@@ -67,12 +80,12 @@ nav{
 }
 
 .btn-orange{
-    background-color: #ff6600;
+    background-color: var(--dsc-color-btn-primary);
 }
 
 .btn-white {
-    border: 1px solid #ff6600;
-    color: #ff6600;
+    border: 1px solid var(--dsc-color-btn-inverse);
+    color: var(--dsc-color-btn-inverse);
 }
 
 .mb20 {

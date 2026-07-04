@@ -1,3 +1,5 @@
+@import url(style.css);
+
 #product-details{
     padding: 20px 0;
 }
@@ -18,7 +20,7 @@
 
 
 .product-details-bottom h3 {
-    color: #0caf10;
+    color: var(--dsc-color-secondary-font);
     font-size: 20px;
 }
 
@@ -40,9 +42,9 @@
 .category {
     padding: 0 20px;
     margin-right: 20px;
-    background-color: #ff6600;;
+    background-color: var(--dsc-color-bg-secondary);
     border-radius: 4px;
-    color: white;
+    color: var(--dsc-color-ternary-font);
     height: 30px;
     font-size: 14px;
     font-weight: 700;
