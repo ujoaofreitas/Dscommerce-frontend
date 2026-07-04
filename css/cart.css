@@ -12,7 +12,7 @@
 .dsc-cart-total-container #total {
     text-align: left;
     font-size: 20px;
-    color: var(--dsc-color-primary-font);
+    color: var(--dsc-color-quartenary-font);
 }
 
 .dsc-cart-item-container {
@@ -54,7 +54,7 @@
 }
 
 .dsc-cart-item-description h3 {
-    color: var(--dsc-color-primary-font);
+    color: var(--dsc-color-quartenary-font);
     font-size: 16px;
     padding: 0 0 0 15px;
 }
