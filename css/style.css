@@ -15,6 +15,7 @@
     --dsc-color-secondary-font: #0caf10;
     --dsc-color-ternary-font: #ffffff;
     --dsc-color-quartenary-font: #505050;
+    --dsc-color-placeholder-font: #bababa;
 }
 
 * {
@@ -57,6 +58,7 @@ main {
 .dsc-mt20 {
     margin-top: 20px;
 }
+
 
 /*
 -------------------------------------------------------------
@@ -156,4 +158,54 @@ nav{
 }
 
 
+/*
+-------------------------------------------------------------
+                    SEARCH BAR STYLES
+-------------------------------------------------------------
+*/
+
+.dsc-search-bar {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    color: var(--dsc-color-primary-font);
+}
+
+.dsc-search-bar button, .dsc-search-bar input {
+    border: 1px solid var(--dsc-color-card-border);
+}
+
+.dsc-search-bar input {
+    width: calc(100% - 80px);
+    border-right: none;
+    border-left: none;
+    padding-left: 10px;
+    font-size: 16px;
+    color: var(--dsc-color-quartenary-font);
+}
+
+.dsc-search-bar input:focus {
+    outline: none;
+}
+
+.dsc-search-bar input::placeholder {
+    color: var(--dsc-color-placeholder-font);
+}
+
+.dsc-search-bar button {
+    background-color: var(--dsc-color-bg-secondary);
+    color: var(--dsc-color-card-bg);
+    width: 40px;
+    cursor: pointer;
+}
+
+.dsc-search-bar button[type="submit"] {
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.dsc-search-bar button[type="reset"] {
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
 
