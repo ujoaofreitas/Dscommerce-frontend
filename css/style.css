@@ -46,23 +46,23 @@ nav{
     align-items: center;
 }
 
-.container{
+.dsc-container{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
 }
 
-.card {
+.dsc-card {
     border: 1px solid var(--dsc-color-card-border);
     border-radius: 4px;
     background-color: var( --dsc-color-card-bg);
 }
 
-.line-bottom {
+.dsc-line-bottom {
      border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
-.btn {
+.dsc-btn {
     border-radius: 4px;
     height: 42px;
     font-size: 16px;
@@ -73,21 +73,21 @@ nav{
     color: var(--dsc-color-ternary-font);
 }
 
-.btn-page-container {
+.dsc-btn-page-container {
     width: 250px;
     display: grid;
     grid-gap: 20px;
 }
 
-.btn-orange{
+.dsc-btn-orange{
     background-color: var(--dsc-color-btn-primary);
 }
 
-.btn-white {
+.dsc-btn-white {
     border: 1px solid var(--dsc-color-btn-inverse);
     color: var(--dsc-color-btn-inverse);
 }
 
-.mb20 {
+.dsc-mb20 {
     margin-bottom: 20px;
 }
